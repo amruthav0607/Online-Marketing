@@ -29,6 +29,20 @@ const POSTS = [
         excerpt: "Unlock the power of segmentation and personalization to boost open rates and conversions in your email campaigns.",
         date: "Jan 10, 2024",
         image: "/blog/email.jpg"
+    },
+    {
+        slug: "brand-identity-essentials",
+        title: "Building a Brand Identity that Lasts",
+        excerpt: "Why consistency and storytelling are the foundation of every successful modern brand architecture.",
+        date: "Jan 5, 2024",
+        image: "/blog/brand.jpg"
+    },
+    {
+        slug: "ai-marketing-future",
+        title: "How AI is Revolutionizing Marketing Workflows",
+        excerpt: "From automation to predictive analytics, learn how to leverage AI to stay competitive in the market.",
+        date: "Jan 2, 2024",
+        image: "/blog/marketing-ai.jpg"
     }
 ];
 

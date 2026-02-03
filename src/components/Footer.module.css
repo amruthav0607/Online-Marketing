@@ -1,6 +1,8 @@
 .footer {
-    background: var(--surface);
-    border-top: 1px solid var(--border);
+    background: var(--gradient-main);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding: 4rem 2rem 2rem;
     color: var(--text-secondary);
 }
@@ -29,11 +31,13 @@
 }
 
 .column a {
-    transition: color 0.2s;
+    transition: all 0.3s ease;
+    display: inline-block;
 }
 
 .column a:hover {
     color: var(--primary);
+    transform: translateX(5px);
 }
 
 .bottom {
