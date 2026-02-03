@@ -1,0 +1,67 @@
+.article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.date {
+    color: var(--primary);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.imageWrapper {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin-bottom: 3rem;
+    background: var(--surface);
+}
+
+.image {
+    object-fit: cover;
+}
+
+.content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.backLink {
+    display: inline-flex;
+    margin-top: 4rem;
+    color: var(--primary);
+    font-weight: 500;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.backLink:hover {
+    text-decoration: underline;
+}
