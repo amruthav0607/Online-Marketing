@@ -12,19 +12,19 @@ export const Footer = () => {
                 <div className={styles.column}>
                     <h3>Services</h3>
                     <ul>
-                        <li><Link href="#">SEO Optimization</Link></li>
-                        <li><Link href="#">Social Media</Link></li>
-                        <li><Link href="#">Content Strategy</Link></li>
-                        <li><Link href="#">Paid Advertising</Link></li>
+                        <li><Link href="/services">SEO Optimization</Link></li>
+                        <li><Link href="/services">Social Media</Link></li>
+                        <li><Link href="/services">Content Strategy</Link></li>
+                        <li><Link href="/services">Paid Advertising</Link></li>
                     </ul>
                 </div>
                 <div className={styles.column}>
                     <h3>Company</h3>
                     <ul>
                         <li><Link href="/blog">Blog</Link></li>
-                        <li><Link href="#">About Us</Link></li>
-                        <li><Link href="#">Careers</Link></li>
-                        <li><Link href="#">Contact</Link></li>
+                        <li><Link href="/services">About Us</Link></li>
+                        <li><Link href="/services">Careers</Link></li>
+                        <li><Link href="/contact">Contact</Link></li>
                     </ul>
                 </div>
                 <div className={styles.column}>
